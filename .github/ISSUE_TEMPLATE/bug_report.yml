@@ -38,7 +38,7 @@ body:
       description: Please go to https://www.whatsmybrowser.org/ and copy the link generated into this text area. e.g. https://www.whatsmybrowser.org/b/WTBQ3
     validations:
       required: true
-   - type: textarea
+  - type: textarea
     id: notes
     attributes:
       label: Anything else?
