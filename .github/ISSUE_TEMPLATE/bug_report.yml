@@ -30,5 +30,5 @@ body:
   - type: textarea
     id: browser
     attributes:
-      label: browser specs
+      label: Browser specs
       description: Please go to https://www.whatsmybrowser.org/ and copy the link into this text area. e.g. https://www.whatsmybrowser.org/b/WTBQ3
