@@ -19,16 +19,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: expected-output
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: What did you expect to happen?
+      description: Please tell us what you expected to happen.
