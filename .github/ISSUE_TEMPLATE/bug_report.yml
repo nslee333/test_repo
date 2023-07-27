@@ -12,14 +12,23 @@ body:
   - type: textarea
     id: current
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      label: What is the current behavior?
+      placeholder: What happened?
       value: "A bug happened!"
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: What did you expect to happen?
-      description: Please tell us what you expected to happen.
+      label: What is the expected behavior?
+      description: What should happen?
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Please give us steps to reproduce.
+  - type: textarea
+    id: browser
+    attributes:
+      label: browser specs
+      description: Please go to https://www.whatsmybrowser.org/ and copy the link into this text area. e.g. https://www.whatsmybrowser.org/b/WTBQ3
