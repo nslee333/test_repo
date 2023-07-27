@@ -31,7 +31,7 @@ body:
       description: Please list the steps to reproduce the bug.
     validations:
       required: true
-  - type: text
+  - type: input
     id: browser
     attributes:
       label: Browser specs
