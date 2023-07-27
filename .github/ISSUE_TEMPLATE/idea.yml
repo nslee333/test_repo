@@ -9,12 +9,11 @@ body:
     id: description
     attributes:
       label: Describe your idea / enhancement
-      placeholder: ...
     validations:
       required: true
   - type: textarea
     id: justificiation
     attributes:
-      label: How would this be beneficial?
+      label: How would this idea / enhancement be beneficial?
     validations:
       required: true
