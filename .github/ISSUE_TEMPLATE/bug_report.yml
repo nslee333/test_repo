@@ -10,7 +10,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: textarea
-    id: what-happened
+    id: current
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: expected-output
+    id: expected
     attributes:
       label: What did you expect to happen?
       description: Please tell us what you expected to happen.
