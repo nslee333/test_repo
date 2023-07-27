@@ -22,13 +22,19 @@ body:
     attributes:
       label: What is the expected behavior?
       description: What should happen?
+    validations:
+      required: true
   - type: textarea
     id: steps
     attributes:
       label: Steps to reproduce
       description: Please give us steps to reproduce.
+    validations:
+      required: true
   - type: textarea
     id: browser
     attributes:
       label: Browser specs
       description: Please go to https://www.whatsmybrowser.org/ and copy the link generated into this text area. e.g. https://www.whatsmybrowser.org/b/WTBQ3
+    validations:
+      required: true
